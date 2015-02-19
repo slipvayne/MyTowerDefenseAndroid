@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.isec.mytowerdefense"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-sdk
+        android:minSdkVersion="5"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.isec.mytowerdefense.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.isec.mytowerdefense.MainMenu"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.isec.mytowerdefense.StartGame"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.isec.mytowerdefense.CreditosActivity"
+            android:label="@string/title_activity_creditos"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.isec.mytowerdefense.ScoresActivity"
+            android:label="@string/title_activity_scores"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.isec.mytowerdefense.Scores"
+            android:label="@string/title_activity_scores"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.swarmconnect.SwarmMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateHidden" />
+
+        <service
+            android:name="com.swarmconnect.NotificationService"
+            android:process=":swarm" />
+
+        <activity
+            android:name="com.isec.mytowerdefense.SobreActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+			android:scrollbars = "vertical"
+            android:label="@string/title_activity_sobre" >
+        </activity>
+    </application>
+
+</manifest>

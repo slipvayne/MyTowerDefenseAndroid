@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Tower Defense</string>
+    <string name="menu">Menu</string>
+    <string name="menu_settings">Opções</string>
+    <string name="title_activity_main_menu">Menu</string>
+    <string name="jogar">Jogar</string>
+    <string name="creditos">Créditos</string>
+    <string name="pontuacoes">Pontuações</string>
+    <string name="sair">Sair</string>
+    <string name="title_activity_creditos">Créditos</string>
+    <string name="title_activity_scores">Pontuações</string>
+    <string name="sobre">Sobre</string>
+    <string name="title_activity_sobre">Ajuda</string>
+    <string name="som">Som</string>
+    
+   <string name="sobre_texto">«« My Tower Defense »» \n\n Neste jogo, o objectivo fundamental, é impedir
+        que os inimigos atravessem com sucesso o mapa do início ao fim. \n\n
+        Para isso, tens que construir várias torres de modo estratégico e evitar a passagem desses inimigos.\n
+		O jogo tem várias rondas, cada uma com um diferente tipo de inimigos
+		 (estes vão variando consoante a ronda e o jogo vai, assim, tornando-se mais difícil), 
+		 e consoante o número de inimigos que as torres conseguirem liquidar é atribuído mais dinheiro
+		  para que este possa comprar mais torres e posicioná-las no mapa quando o jogo tiver em andamento ou mesmo parado. 
+	\n\nExistem também 3 tipos de torres (gelo, veneno e canhão). 
+	Por cada inimigo que passe o mapa sem ser liquidado o jogador perde uma vida. 
+	Quando não restarem mais vidas o jogo acaba e a pontuação final (se melhor) pode ficar guardada online.\n\n
+	
+	Este jogo está disponível em inglês e também em português. (consoante o idioma do smartphone)\n\n
+	
+	Ricardo Germano | DEIS-ISEC |</string>
+    
+</resources>

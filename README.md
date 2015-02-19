@@ -1,2 +1,2 @@
 # MyTowerDefenseAndroid
-My Tower Defense game for Android (incomplete)
+My Tower Defense game developed for Android with LibGDX (incomplete)

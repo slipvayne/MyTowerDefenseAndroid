@@ -1,0 +1,40 @@
+
+buttons.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+playNormal
+  rotate: false
+  xy: 1, 1
+  size: 69, 37
+  orig: 69, 37
+  offset: 0, 0
+  index: -1
+playNormalPressed
+  rotate: false
+  xy: 72, 1
+  size: 69, 37
+  orig: 69, 37
+  offset: 0, 0
+  index: -1
+torre1
+  rotate: false
+  xy: 143, 6
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+torre2
+  rotate: false
+  xy: 177, 6
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+torre3
+  rotate: false
+  xy: 211, 6
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1

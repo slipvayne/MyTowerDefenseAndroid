@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="left|center_vertical"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context=".MainMenu" >
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:maxWidth="50dp"
+        android:minHeight="40dp"
+        android:onClick="onPlay"
+        android:padding="12dp"
+        android:text="@string/jogar"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/ButtonOptions"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonPlay"
+        android:onClick="onScore"
+        android:text="@string/pontuacoes"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/ButtonScores"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ButtonOptions"
+        android:onClick="onCredits"
+        android:text="@string/creditos"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/ButtonSobre"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ButtonScores"
+        android:onClick="onSobre"
+        android:text="@string/sobre"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/ButtonExit"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ButtonSobre"
+        android:onClick="onSair"
+        android:text="@string/sair"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <ImageButton
+        android:id="@+id/som"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/buttonPlay"
+        android:background="@null"
+        android:onClick="onSom"
+        android:src="@drawable/sound"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>
